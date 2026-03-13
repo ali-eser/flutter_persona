@@ -29,7 +29,7 @@ class _ItemPageState extends State<ItemPage> {
               Image.network(
                 widget.item.image ?? "",
                 height: 250,
-                fit: BoxFit.cover,
+                fit: BoxFit.contain,
                 width: double.infinity,
               ),
               SizedBox(height: 20),
